@@ -54,7 +54,7 @@
                                 <a class="link-update"
                                    href="${pageContext.request.contextPath}/admin_typeModify?id=${type.id}&cp=${requestScope.page}">修改</a>
                                 <a class="link-del"
-                                   href="javascript:deleteone('确定要删除分类${type.name}吗？','${pageContext.request.contextPath}/admin_typeDelete?id=${type.id}&cp=${requestScope.page}')">删除</a>
+                                   href="javascript:deleteOne('确定要删除分类${type.name}吗？','${pageContext.request.contextPath}/admin_typeDelete?id=${type.id}&cp=${requestScope.page}')">删除</a>
                             </td>
                         </tr>
                     </c:forEach>
